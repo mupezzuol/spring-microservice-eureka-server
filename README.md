@@ -1,2 +1,3 @@
-# spring-microservice-eureka-server
-Spring Cloud - Eureka Server
+# Spring Boot - Microservice - Eureka Server
+
+Microservices with Spring.

@@ -1,7 +1,26 @@
 server:
   port: 8761
 
+spring:
+  application:
+    name: 'eureka'
+  boot:
+    admin:
+      client:
+        url:
+        - http://localhost:8082
+
 eureka:
   client:
     fetch-registry: false
     register-with-eureka: false  
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+  endpoint:
+    health:
+      show-details: always
